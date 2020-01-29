@@ -1,0 +1,35 @@
+#text1 {
+    font-weight: bold; 
+    font-size: 30px; 
+    position: relative;
+    top: -20px
+}
+
+#text2 {
+    font-size: 20px;
+}
+
+#headerJumbo {
+    background-color: #131933;
+    position: relative;
+    top: -30px;
+}
+
+#hbgContainer {
+    background-color: #f7f7f7;
+}
+
+#bgContainer {
+    background-color: #f7f7f7;
+    position: relative;
+    top: 10px;
+}
+
+#jumbo1 {
+    background-color: #f7f7f7;
+    border: 3px solid #131933;
+}
+
+#logo {
+    max-width: 10%;
+}
