@@ -47,17 +47,24 @@
 #hbgContainer {
     padding-top: 8%;
     background-color: var(--primary-color);
-    height: 529px;
+    height: 509px;
     position: relative;
     top: -69px;
     /* margin-bottom: -50px; */
 }
 
-#bgContainer {
+#bgContainer1 {
     background-color: var(--background-color);
     position: relative;
     top: 7px;
     margin-top: -59px
+}
+
+#bgContainer2 {
+    background-color: var(--background-color);
+    position: relative;
+    top: 22px;
+    /* margin-top: -59px */
 }
 
 #jumbo1 {
@@ -67,4 +74,14 @@
 
 #logo {
     max-width: 8%;
+}
+
+#logo1 {
+    position: relative;
+    top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    max-width: 90%;
 }
