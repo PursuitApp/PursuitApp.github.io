@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #10101f;
+    --primary-color: #101022;
     --background-color: #fcfafc;
 }
 
@@ -28,9 +28,9 @@
 #hbgContainer {
     padding-top: 8%;
     background-color: var(--primary-color);
-    height: 500px;
+    height: 529px;
     position: relative;
-    top: -60px;
+    top: -69px;
     /* margin-bottom: -50px; */
 }
 
@@ -38,7 +38,7 @@
     background-color: var(--background-color);
     position: relative;
     top: 7px;
-    margin-top: -51px
+    margin-top: -59px
 }
 
 #jumbo1 {
@@ -47,5 +47,5 @@
 }
 
 #logo {
-    max-width: 7%;
+    max-width: 8%;
 }
