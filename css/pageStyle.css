@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #10101f;
+    --background-color: #fcfafc;
+}
+
+#navbar {
+    background-color: var(--primary-color);
+    opacity: 0.95;
+}
+
 #text1 {
     font-weight: bold; 
     font-size: 30px; 
@@ -10,26 +20,32 @@
 }
 
 #headerJumbo {
-    background-color: #131933;
+    background-color: var(--primary-color);
     position: relative;
     top: -30px;
 }
 
 #hbgContainer {
-    background-color: #f7f7f7;
+    padding-top: 8%;
+    background-color: var(--primary-color);
+    height: 500px;
+    position: relative;
+    top: -60px;
+    /* margin-bottom: -50px; */
 }
 
 #bgContainer {
-    background-color: #f7f7f7;
+    background-color: var(--background-color);
     position: relative;
-    top: 10px;
+    top: 7px;
+    margin-top: -51px
 }
 
 #jumbo1 {
-    background-color: #f7f7f7;
-    border: 3px solid #131933;
+    background-color: var(--background-color)
+    /* border: 3px solid #131933; */
 }
 
 #logo {
-    max-width: 10%;
+    max-width: 7%;
 }
