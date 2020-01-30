@@ -3,6 +3,25 @@
     --background-color: #fcfafc;
 }
 
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color), 0 0 30px var(--primary-color), 0 0 40px var(--primary-color), 0 0 50px var(--primary-color), 0 0 60px var(--primary-color), 0 0 70px var(--primary-color);
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff,0 0 20px #323050, 0 0 20px #343253, 0 0 30px #312e57, 0 0 40px #2a2753, 0 0 50px #242058;
+    }
+  }
+
 #navbar {
     background-color: var(--primary-color);
     opacity: 0.95;
