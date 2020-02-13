@@ -60,10 +60,15 @@
     height: 509px;
     position: relative;
     top: -69px;
-    /* margin-bottom: -50px; */
+    margin-bottom: -50px;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
 }
 
-#bgContainer1 {
+#about {
     background-color: var(--background-color);
     position: relative;
     top: 7px;
@@ -97,7 +102,8 @@
 }
 
 #tie {
-    max-width: 9%;
+    width: 40px;
+    height: 50px;
 }
 
 #logo1 {
