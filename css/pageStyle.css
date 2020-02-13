@@ -114,3 +114,11 @@
     left: 50%;
     transform: translate(-50%, 0);
 }
+
+#googleDriveLogo {
+    max-width: 12%;
+}
+
+#gitHubLogo {
+    max-width: 5%;
+}
