@@ -121,6 +121,14 @@
     transform: translate(-50%, 0);
 }
 
-#navBarLogo {
+#googleDriveLogo {
     height:35px;
+}
+
+#gitHubLogo {
+    height: 35px;
+}
+
+#clubHouseLogo {
+    height: 35px;
 }
